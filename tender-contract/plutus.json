@@ -1,0 +1,241 @@
+{
+  "preamble": {
+    "title": "aiken-lang/tender-contract",
+    "description": "Aiken contracts for project 'aiken-lang/tender-contract'",
+    "version": "0.0.0",
+    "plutusVersion": "v3",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.1.19+e525483"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "placeholder.government_tender.spend",
+      "datum": {
+        "title": "datum",
+        "schema": {
+          "$ref": "#/definitions/placeholder~1Datum"
+        }
+      },
+      "redeemer": {
+        "title": "redeemer",
+        "schema": {
+          "$ref": "#/definitions/placeholder~1Redeemer"
+        }
+      },
+      "compiledCode": "59044a01010029800aba2aba1aab9faab9eaab9dab9a48888896600264653001300700198039804000cdc3a400530070024888966002600460106ea800e26644653001159800980118059baa0018cc004c030dd5180718061baa00191807980818081808180818081808000c8c03cc040c040c040c040c040c040c040c04000644646600200200644b30010018a508acc004cdc79bae30120010038a518998010011809800a01c4045300b375400f2232330010010032259800800c52845660026006602400314a313300200230130014038808a6e21200048888888cc8966002601600b13259800cc0048c064c068c068c068c0680064603260346034603400323019301a301a0019180c980d000a444464b3001330013002301b375400c600460366ea80222b3001330013003301b375400c600660366ea80222b3001330013004301b375400c600860366ea8022266002600a60366ea8018c014c06cdd5004452820328a50406514a080c8896600266e1cdd6980f180e1baa002375a603c60386ea80062b3001337126eb4c00cc070dd50009bad3003301c375400515980099b89375a600660386ea8008dd69802180e1baa0018acc004cdc49bad3005301c37540026eb4c010c070dd5001456600266e24dd69802180e1baa002375a600c60386ea8006260146eb4c010c070dd5001452820348a50406914a080d2294101a45282034456600330013300500223371e6eb8c064c05cdd50009bae3019301737540054a14a280a2260086e34dd7180c180b1baa0018a50405114a080a0c05cc054dd50084566002601c00b132332259800998049bac300a301837540206eb8c02cc060dd5002c56600266e24c00800520148acc004cdc39919800800801112cc0040062900044cc896600266016010466e3cdd7180f980e9baa001003899b800014800a200280d0dd7180e00099801001180e800a0363002001898031801000c528202c8a50405914a080b0c004004dd6180c180b1baa0112259800800c52000899b8048008cc008008c06800501844cc018dd61803980a9baa00d375c6010602a6ea8009013202630150073758602a602c00e8b201498059baa007912cc004c010c034dd500144c8c8ca60026eb4c04c0066eb4c04c00e6eb4c04c00922259800980b802401e2c80a860260026024002601c6ea800a2c8062601c00691112cc004c01800e264b300130140018992cc004c020c044dd5000c4c8c8c8c8ca60026032003375c603200b3019003980c80124444b3001301e005899806980e804099806801099806800899806802007c5901c0c064004c060004c05c004c058004c048dd5000c590101809800c5901218081baa00b8acc004c02400e264b30013014001899198008009bac30140022259800800c01e26466006006602e0046eb8c05400501445901218081baa00b8acc004cdc3a400800715980098081baa00b80245901145900e201c4038300d300e002300937540066e1d20008b200e180380098019baa0078a4d1365640041",
+      "hash": "1a4fd725717d5a05d0ab247869fe21b0a1e8a9cd940a0bd506794912"
+    },
+    {
+      "title": "placeholder.government_tender.else",
+      "redeemer": {
+        "schema": {}
+      },
+      "compiledCode": "59044a01010029800aba2aba1aab9faab9eaab9dab9a48888896600264653001300700198039804000cdc3a400530070024888966002600460106ea800e26644653001159800980118059baa0018cc004c030dd5180718061baa00191807980818081808180818081808000c8c03cc040c040c040c040c040c040c040c04000644646600200200644b30010018a508acc004cdc79bae30120010038a518998010011809800a01c4045300b375400f2232330010010032259800800c52845660026006602400314a313300200230130014038808a6e21200048888888cc8966002601600b13259800cc0048c064c068c068c068c0680064603260346034603400323019301a301a0019180c980d000a444464b3001330013002301b375400c600460366ea80222b3001330013003301b375400c600660366ea80222b3001330013004301b375400c600860366ea8022266002600a60366ea8018c014c06cdd5004452820328a50406514a080c8896600266e1cdd6980f180e1baa002375a603c60386ea80062b3001337126eb4c00cc070dd50009bad3003301c375400515980099b89375a600660386ea8008dd69802180e1baa0018acc004cdc49bad3005301c37540026eb4c010c070dd5001456600266e24dd69802180e1baa002375a600c60386ea8006260146eb4c010c070dd5001452820348a50406914a080d2294101a45282034456600330013300500223371e6eb8c064c05cdd50009bae3019301737540054a14a280a2260086e34dd7180c180b1baa0018a50405114a080a0c05cc054dd50084566002601c00b132332259800998049bac300a301837540206eb8c02cc060dd5002c56600266e24c00800520148acc004cdc39919800800801112cc0040062900044cc896600266016010466e3cdd7180f980e9baa001003899b800014800a200280d0dd7180e00099801001180e800a0363002001898031801000c528202c8a50405914a080b0c004004dd6180c180b1baa0112259800800c52000899b8048008cc008008c06800501844cc018dd61803980a9baa00d375c6010602a6ea8009013202630150073758602a602c00e8b201498059baa007912cc004c010c034dd500144c8c8ca60026eb4c04c0066eb4c04c00e6eb4c04c00922259800980b802401e2c80a860260026024002601c6ea800a2c8062601c00691112cc004c01800e264b300130140018992cc004c020c044dd5000c4c8c8c8c8ca60026032003375c603200b3019003980c80124444b3001301e005899806980e804099806801099806800899806802007c5901c0c064004c060004c05c004c058004c048dd5000c590101809800c5901218081baa00b8acc004c02400e264b30013014001899198008009bac30140022259800800c01e26466006006602e0046eb8c05400501445901218081baa00b8acc004cdc3a400800715980098081baa00b80245901145900e201c4038300d300e002300937540066e1d20008b200e180380098019baa0078a4d1365640041",
+      "hash": "1a4fd725717d5a05d0ab247869fe21b0a1e8a9cd940a0bd506794912"
+    }
+  ],
+  "definitions": {
+    "ByteArray": {
+      "dataType": "bytes"
+    },
+    "Int": {
+      "dataType": "integer"
+    },
+    "List$ByteArray": {
+      "dataType": "list",
+      "items": {
+        "$ref": "#/definitions/ByteArray"
+      }
+    },
+    "List$placeholder/BidSubmission": {
+      "dataType": "list",
+      "items": {
+        "$ref": "#/definitions/placeholder~1BidSubmission"
+      }
+    },
+    "placeholder/BidPart": {
+      "title": "BidPart",
+      "anyOf": [
+        {
+          "title": "BidPart",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "part_id",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "cost_cr",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "time_weeks",
+              "$ref": "#/definitions/Int"
+            }
+          ]
+        }
+      ]
+    },
+    "placeholder/BidSubmission": {
+      "title": "BidSubmission",
+      "anyOf": [
+        {
+          "title": "BidSubmission",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "bid_hash",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "part1_bid",
+              "$ref": "#/definitions/placeholder~1BidPart"
+            },
+            {
+              "title": "part2_bid",
+              "$ref": "#/definitions/placeholder~1BidPart"
+            },
+            {
+              "title": "part3_bid",
+              "$ref": "#/definitions/placeholder~1BidPart"
+            },
+            {
+              "title": "part4_bid",
+              "$ref": "#/definitions/placeholder~1BidPart"
+            }
+          ]
+        }
+      ]
+    },
+    "placeholder/Datum": {
+      "title": "Datum",
+      "anyOf": [
+        {
+          "title": "Datum",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "tender_spec",
+              "$ref": "#/definitions/placeholder~1TenderSpec"
+            },
+            {
+              "title": "submitted_bids",
+              "$ref": "#/definitions/List$placeholder~1BidSubmission"
+            }
+          ]
+        }
+      ]
+    },
+    "placeholder/Redeemer": {
+      "title": "Redeemer",
+      "anyOf": [
+        {
+          "title": "SubmitBid",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "bid",
+              "$ref": "#/definitions/placeholder~1BidSubmission"
+            }
+          ]
+        },
+        {
+          "title": "SelectTopBids",
+          "dataType": "constructor",
+          "index": 1,
+          "fields": [
+            {
+              "title": "selected_bid_hashes",
+              "$ref": "#/definitions/List$ByteArray"
+            }
+          ]
+        },
+        {
+          "title": "CloseTender",
+          "dataType": "constructor",
+          "index": 2,
+          "fields": []
+        }
+      ]
+    },
+    "placeholder/TenderPart": {
+      "title": "TenderPart",
+      "anyOf": [
+        {
+          "title": "TenderPart",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "part_id",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "min_cost_cr",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "max_cost_cr",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "min_time_weeks",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "max_time_weeks",
+              "$ref": "#/definitions/Int"
+            }
+          ]
+        }
+      ]
+    },
+    "placeholder/TenderSpec": {
+      "title": "TenderSpec",
+      "anyOf": [
+        {
+          "title": "TenderSpec",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "tender_id",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "part1",
+              "$ref": "#/definitions/placeholder~1TenderPart"
+            },
+            {
+              "title": "part2",
+              "$ref": "#/definitions/placeholder~1TenderPart"
+            },
+            {
+              "title": "part3",
+              "$ref": "#/definitions/placeholder~1TenderPart"
+            },
+            {
+              "title": "part4",
+              "$ref": "#/definitions/placeholder~1TenderPart"
+            },
+            {
+              "title": "target_avg_cost_time_ratio",
+              "$ref": "#/definitions/Int"
+            },
+            {
+              "title": "government_authority",
+              "$ref": "#/definitions/ByteArray"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
